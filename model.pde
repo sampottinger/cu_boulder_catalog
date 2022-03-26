@@ -31,26 +31,57 @@ class Key implements Comparable<Key> {
     year = newYear;
   }
 
+  /**
+   * Get the school or college to which this key refers.
+   *
+   * @returns The name of the school as it appears in the dataset like Engineering.
+   */
   public String getSchool() {
     return school;
   }
 
+  /**
+   * Get the name of the area of study to which this key refers.
+   *
+   * @returns The name of the area of study like Computer Science.
+   */
   public String getName() {
     return name;
   }
 
+  /**
+   * Get the year to which this key refers.
+   *
+   * @returns The integer year like 2020.
+   */
   public int getYear() {
     return year;
   }
 
+  /**
+   * Get a string uniquely describing this key.
+   *
+   * @returns Tab separated concat of school, name, and year.
+   */
   public String toString() {
     return school + "\t" + name + "\t" + year;
   }
 
+  /**
+   * Get a hash code semi-uniquely describing this key.
+   *
+   * @returns Hash of string cnotaining tab separated concat of school, name, and year.
+   */
   public int hashCode() {
     return toString().hashCode();
   }
 
+  /**
+   * Determine if this key refers to the same set of courses as another key.
+   *
+   * @param other The other key to which to compare.
+   * @returns True if they refer to the same set of courses and false otherwise.
+   */
   public boolean equals(Object other) {
     if (!(other instanceof Key)) {
       return false;
@@ -59,6 +90,13 @@ class Key implements Comparable<Key> {
     return toString().equals(other.toString());
   }
 
+  /**
+   * Determine if this key alphanumerically apperas before another key.
+   *
+   * @param other The other key to which to compare.
+   * @returns A negative number if this comes before, 0 if they are the same, and a positive number
+   *    otherwise.
+   */
   public int compareTo(Key other) {
     return toString().compareTo(other.toString());
   }
@@ -197,6 +235,11 @@ class Dataset {
 }
 
 
+/**
+ * Load a global dataset for this sketch.
+ *
+ * @returns Dataset loaded from catalog.csv
+ */
 Dataset loadDataset() {
   Table targetTable = loadTable("catalog.csv", "header");
 
