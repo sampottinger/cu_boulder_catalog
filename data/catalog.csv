@@ -81,13 +81,13 @@ Spring/Fall,1980,Education,Teacher Education,Education,Teacher Education
 Spring/Fall,1980,Engineering,Aerospace Eng,Engineering,Aerospace Eng Sciences
 Spring/Fall,1980,Engineering,Architectural Eng,Engineering,Architectural Eng
 Spring/Fall,1980,Engineering,Chemical Eng,Engineering,Chemical Eng
-Spring/Fall,1980,Engineering,Civil and Env Eng,Engineering,"Civil, Environmental, and Architectural Eng"
+Spring/Fall,1980,Engineering,Civil and Env Eng,Engineering,"Civil, Env, Arch Eng"
 Spring/Fall,1980,Engineering,Electrical Eng,Engineering,Elect and Comp Eng
 Spring/Fall,1980,Engineering,Eng Design and Economic Eval,Engineering,Engineering
 Spring/Fall,1980,Engineering,Engineering,Engineering,Engineering
 Spring/Fall,1980,Engineering,Mechanical Eng,Engineering,Mechanical Eng
 Spring/Fall,1980,Journalism,Journalism,Journalism,Journalism
-Spring/Fall,1980,Music,Applied Music and Ensembles,Music,Applied Music and Ensembles
+Spring/Fall,1980,Music,Applied Music & Ensembles,Music,Applied Music & Ensembles
 Spring/Fall,1980,Music,BA in Music,Music,BA in Music
 Spring/Fall,1980,Music,Choral Music,Music,Choral Music
 Spring/Fall,1980,Music,Doctor of Musical Arts,Music,Doctor of Musical Arts
@@ -177,7 +177,7 @@ Spring/Fall,1985,Education,Teacher Education,Education,Teacher Education
 Spring/Fall,1985,Engineering,Aerospace Eng Sciences,Engineering,Aerospace Eng
 Spring/Fall,1985,Engineering,Architectural Eng,Engineering,Architectural Eng
 Spring/Fall,1985,Engineering,Chemical Eng,Engineering,Chemical Eng
-Spring/Fall,1985,Engineering,"Civil, Environmental, and Architectural Eng",Engineering,Civil Engineering
+Spring/Fall,1985,Engineering,"Civil, Env, Arch Eng",Engineering,Civil Engineering;Environmental Eng;Architectural Eng
 Spring/Fall,1985,Engineering,Computer Science,Engineering,Computer Science
 Spring/Fall,1985,Engineering,Elect and Comp Eng,Engineering,Elect and Comp Eng
 Spring/Fall,1985,Engineering,Engineering,Engineering,General Engineering
@@ -185,11 +185,11 @@ Spring/Fall,1985,Engineering,Industrial Engineering,,
 Spring/Fall,1985,Engineering,Mechanical Eng,Engineering,Mechanical Eng
 Spring/Fall,1985,Journalism,Journalism,,
 Fall,1985,Music,Applied Lessons,,
-Spring/Fall,1985,Music,Applied Music and Ensembles,,
+Spring/Fall,1985,Music,Applied Music & Ensembles,,
 Spring/Fall,1985,Music,BA in Music,,
 Spring/Fall,1985,Music,Choral Music,,
 Spring/Fall,1985,Music,Convocation Requirement,Music,Convocation Music
-Spring/Fall,1985,Music,Courses Open to Both Nonmusic and Music Majors,,
+Spring/Fall,1985,Music,Nonmusic and Music Majors,,
 Spring/Fall,1985,Music,Doctor of Musical Arts,,
 Fall,1985,Music,Ensembles,,
 Spring/Fall,1985,Music,History and Literature,,
@@ -296,7 +296,7 @@ Spring/Fall,1990,Engineering,Chemical Eng,Engineering,Chemical Eng
 Spring/Fall,1990,Engineering,Civil Engineering,Engineering,Civil Engineering
 Spring/Fall,1990,Engineering,Computer Science,Engineering,Computer Science
 Spring/Fall,1990,Engineering,Elect and Comp Eng,Engineering,Elect and Comp Eng
-Fall,1990,Engineering,Environmental Engineering,,
+Fall,1990,Engineering,Environmental Eng,Engineering,Civil Engineering
 Spring/Fall,1990,Engineering,General Engineering,Engineering,General Engineering
 Spring/Fall,1990,Engineering,Mechanical Eng,Engineering,Mechanical Eng
 Spring/Fall,1990,Engineering,Telecommunications,Engineering,Telecommunications
@@ -412,10 +412,10 @@ Spring/Fall,1995,Education,Secondary Education,Education,Secondary Teacher Educa
 Spring/Fall,1995,Engineering,Aerospace Eng,Engineering,Aerospace Eng
 Spring/Fall,1995,Engineering,Architectural Eng,Engineering,Architectural Eng
 Spring/Fall,1995,Engineering,Chemical Eng,Engineering,Chemical Eng
-Spring/Fall,1995,Engineering,Civil Engineering,Engineering,Civil Engineering
+Spring/Fall,1995,Engineering,Civil Engineering,Engineering,Civil Engineering;Environmental Eng
 Spring/Fall,1995,Engineering,Computer Science,Engineering,Computer Science
 Spring/Fall,1995,Engineering,Elect and Comp Eng,Engineering,Elect and Comp Eng
-Spring/Fall,1995,Engineering,Engineering Management,Engineering,Engineering Management
+Spring/Fall,1995,Engineering,Eng Management,Engineering,Eng Management
 Spring/Fall,1995,Engineering,General Engineering,Engineering,General Engineering
 Spring/Fall,1995,Engineering,Humanities for Engineers,Engineering,Humanities for Engineers
 Spring/Fall,1995,Engineering,Mechanical Eng,Engineering,Mechanical Eng
@@ -533,8 +533,8 @@ Spring/Fall,2000,Engineering,Chemical Eng,Engineering,Chemical & Biological Engi
 Spring/Fall,2000,Engineering,Civil Engineering,Engineering,Civil Engineering
 Spring/Fall,2000,Engineering,Computer Science,Engineering,Computer Science
 Spring/Fall,2000,Engineering,Elect and Comp Eng,Engineering,Elect and Comp Eng
-Spring/Fall,2000,Engineering,Engineering Management,Engineering,Engineering Management
-Spring/Fall,2000,Engineering,Environmental Engineering,Engineering,Environmental Engineering
+Spring/Fall,2000,Engineering,Eng Management,Engineering,Eng Management
+Spring/Fall,2000,Engineering,Environmental Eng,Engineering,Environmental Eng
 Spring/Fall,2000,Engineering,General Engineering,Engineering,General Engineering
 Spring/Fall,2000,Engineering,Humanities for Engineers,Engineering,Humanities for Engineers
 Spring,2000,Engineering,Mechanical Eng,Engineering,Mechanical Eng
@@ -636,8 +636,8 @@ Spring/Fall,2005,Engineering,Chemical & Biological Engineering,Engineering,Chem 
 Spring/Fall,2005,Engineering,Civil Engineering,Engineering,Civil Engineering
 Spring/Fall,2005,Engineering,Computer Science,Engineering,Computer Science
 Spring/Fall,2005,Engineering,Elect and Comp Eng,Engineering,Elect and Comp Eng
-Spring/Fall,2005,Engineering,Engineering Management,Engineering,Engineering Management
-Spring/Fall,2005,Engineering,Environmental Engineering,Engineering,Environmental Engineering
+Spring/Fall,2005,Engineering,Eng Management,Engineering,Eng Management
+Spring/Fall,2005,Engineering,Environmental Eng,Engineering,Environmental Eng
 Spring/Fall,2005,Engineering,General Engineering,Engineering,General Engineering
 Spring/Fall,2005,Engineering,Humanities for Engineers,Engineering,Humanities for Engineers
 Spring/Fall,2005,Engineering,Mechanical Eng,Engineering,Mechanical Eng
@@ -752,8 +752,8 @@ Spring/Fall,2010,Engineering,Civil Engineering,Engineering,Civil Engineering
 Spring/Fall,2010,Engineering,Computer Science,Engineering,Computer Science
 Spring/Fall,2010,Engineering,Elect and Comp Eng,Engineering,Elect and Comp Eng
 Fall,2010,Engineering,Engineering Honors,Engineering,Engineering Honors
-Spring/Fall,2010,Engineering,Engineering Management,Engineering,Engineering Management
-Fall,2010,Engineering,Environmental Engineering,Engineering,Environmental Engineering
+Spring/Fall,2010,Engineering,Eng Management,Engineering,Eng Management
+Fall,2010,Engineering,Environmental Eng,Engineering,Environmental Eng
 Spring/Fall,2010,Engineering,General Engineering,Engineering,General Engineering
 Spring/Fall,2010,Engineering,Humanities for Engineers,Engineering,Humanities for Engineers
 Spring/Fall,2010,Engineering,Mechanical Eng,Engineering,Mechanical Eng
@@ -770,7 +770,7 @@ Spring/Fall,2010,Music,Music Ensembles,Music,Music Ensembles
 Spring/Fall,2010,Music,Performance Music,Music,Performance Music
 Spring/Fall,2010,Music,Thesis Music,Music,Thesis Music
 Spring/Fall,2010,Other,Air Force Aerospace Studies,Other,Air Force Aerospace Studies
-Spring/Fall,2010,Other,ATLAS,Engineering,ATLAS
+Spring,2010,Other,ATLAS,Engineering,ATLAS
 Spring/Fall,2010,Other,Military Science,Other,Military Science
 Spring/Fall,2010,Other,Naval Science,Other,Naval Science
 Spring,2010,Other,RAP Williams Village,,
@@ -869,8 +869,8 @@ Spring/Fall,2015,Engineering,Civil Engineering,Engineering,Civil Engineering
 Spring/Fall,2015,Engineering,Computer Science,Engineering,Computer Science
 Spring/Fall,2015,Engineering,Elect and Comp Eng,Engineering,Elect and Comp Eng
 Spring/Fall,2015,Engineering,Engineering Honors,Engineering,Engineering Honors
-Spring/Fall,2015,Engineering,Engineering Management,Engineering,Engineering Management
-Fall,2015,Engineering,Environmental Engineering,Engineering,Environmental Engineering
+Spring/Fall,2015,Engineering,Eng Management,Engineering,Eng Management
+Fall,2015,Engineering,Environmental Eng,Engineering,Environmental Eng
 Spring/Fall,2015,Engineering,General Engineering,Engineering,General Engineering
 Spring/Fall,2015,Engineering,Humanities for Engineers,Engineering,Humanities for Engineers
 Spring/Fall,2015,Engineering,Mechanical Eng,Engineering,Mechanical Eng
@@ -993,8 +993,8 @@ Spring/Fall,2020,Engineering,Civil Engineering,,
 Spring/Fall,2020,Engineering,Computer Science,,
 Spring/Fall,2020,Engineering,Elect and Comp Eng,,
 Spring/Fall,2020,Engineering,Engineering Honors,,
-Spring/Fall,2020,Engineering,Engineering Management,,
-Spring/Fall,2020,Engineering,Environmental Engineering,,
+Spring/Fall,2020,Engineering,Eng Management,,
+Spring/Fall,2020,Engineering,Environmental Eng,,
 Spring/Fall,2020,Engineering,General Engineering,,
 Spring,2020,Engineering,Humanities for Engineers,,
 Spring/Fall,2020,Engineering,Mechanical Eng,,
