@@ -183,11 +183,19 @@ class Area implements Comparable<Area> {
 }
 
 
+/**
+ * Dataset on course availability.
+ */
 class Dataset {
 
   private final Map<Key, Area> areasByKey;
   private final Map<Integer, Map<String, List<Area>>> areasByYearSchool;
 
+  /**
+   * Create a new dataset.
+   *
+   * @param areas List of areas to study in any order that make up this dataset.
+   */
   public Dataset(List<Area> areas) {
     areasByKey = new HashMap<>();
     areasByYearSchool = new HashMap<>();
@@ -219,10 +227,22 @@ class Dataset {
     }
   }
 
+  /**
+   * Get an area by key (pair of year, school / college, and area name).
+   *
+   * @param key The key to look up.
+   */
   public Area getByKey(Key key) {
     return areasByKey.get(key);
   }
 
+  /**
+   * Get all of the areas of study in a school or college for a year.
+   *
+   * @param year Integer year for which areas should be returned.
+   * @param school The name of the school as it appears in the dataset like Engineering.
+   * @return List of matching areas.
+   */
   public List<Area> getForYearSchool(int year, String school) {
     Map<String, List<Area>> areasBySchool = areasByYearSchool.get(year);
     if (areasBySchool.containsKey(school)) {
