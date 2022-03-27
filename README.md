@@ -24,7 +24,7 @@ Available online at [https://gleap.org/static/special/cu_boulder_catalog.pdf](ht
 
 Local Development Environment
 --------------------------------------------------------------------------------
-Simply open `cu_boulder_catalog.pde`
+Simply open `cu_boulder_catalog.pde` in [Processing 4](https://processing.org/).
 
 <br>
 
@@ -42,7 +42,9 @@ Please try to provide JavaDoc where possible.
 
 Open Source
 --------------------------------------------------------------------------------
-Available under the MIT license. Uses the following:
+Code available under the MIT license. Uses the following:
 
  - [Processing](https://processing.org/) under the [LGPL license](https://github.com/processing/processing/blob/master/license.txt).
  - [Processing PDF](https://processing.org/reference/libraries/pdf/index.html) under the [LGPL license](https://github.com/processing/processing/blob/master/java/libraries/pdf/src/processing/pdf/PGraphicsPDF.java).
+
+This CU Boulder Catalog database (`data/catalog.csv`) is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/.
